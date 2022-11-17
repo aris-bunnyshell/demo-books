@@ -11,4 +11,6 @@ resource "aws_s3_bucket" "demo_bunnyshell_books" {
     expose_headers  = ["ETag"]
     max_age_seconds = 3000
   }
+
+  force_destroy = true
 }
