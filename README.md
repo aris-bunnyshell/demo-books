@@ -3,7 +3,7 @@
 [![Bunnyshell CI](https://github.com/aris-bunnyshell/demo-books/actions/workflows/bns_ci.yml/badge.svg?branch=master)](https://github.com/aris-bunnyshell/demo-books/actions/workflows/bns_ci.yml)
 
 This app is a CRUD example, composed out of a frontend, one backend service and one database.
-Its purpose is to illustrate how you can quickly get started with Bunnyshell.
+Its purpose is to illustrate how you cann quickly get started with Bunnyshell.
 
 Summary of app functional requirements:
 - Each Book has id, title, description, availability status.
