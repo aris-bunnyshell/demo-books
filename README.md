@@ -6,7 +6,7 @@ This app is a CRUD example, composed out of a frontend, one backend service and 
 Its purpose is to illustrate how you can quickly get started with Bunnyshell.
 
 Summary of app functional requirements:
-- Each Book has id, title, description, availability status.
+- Each Book has id, title, description, availability statuss.
 - We can create, retrieve, update, delete Books.
 - There is a Search bar for searching Books by title.
 
