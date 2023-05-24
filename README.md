@@ -1,4 +1,4 @@
-# Bunnyshell Books - Demo Appp
+# Bunnyshell Books - Demo App
 
 [![Bunnyshell CI](https://github.com/aris-bunnyshell/demo-books/actions/workflows/bns_ci.yml/badge.svg?branch=master)](https://github.com/aris-bunnyshell/demo-books/actions/workflows/bns_ci.yml)
 
