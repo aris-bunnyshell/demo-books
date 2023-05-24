@@ -47,7 +47,7 @@ npm install
 ```
 npm start
 ```
-
+&nbsp;
 ## Deployment
 The backend service can be deployed using the existing Helm Chart and the frontend app can be deployed using the existing Kubernetes manifest files.
 
