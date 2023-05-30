@@ -36,6 +36,7 @@ jobs:
       - run: sleep 5 && echo "Done ${{ needs.job1.outputs.foo }}"
   job6:
     runs-on: ubuntu-latest
+    needs: [job1]
     steps:
       - env:
           FOO: ${{ jobs.job1.outputs.foo }}
