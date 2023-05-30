@@ -34,3 +34,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: sleep 5 && echo "Done ${{ needs.job1.outputs.foo }}"
+        env:
+          test: "${{ needs.job1.outputs.foo }}"
