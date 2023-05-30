@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: sleep 5 && echo Done
+    outputs:
+      foo: bar
   job2:
     runs-on: ubuntu-latest
     steps:
@@ -26,5 +28,5 @@ jobs:
   job4:
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 5 && echo Done
+      - run: sleep 5 && echo "Done ${{ needs.job1.outputs.foo }}"
     needs: [job2]
