@@ -30,3 +30,13 @@ jobs:
     steps:
       - run: sleep 5 && echo "Done ${{ needs.job1.outputs.foo }}"
     needs: [job2]
+  job5:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 5 && echo "Done ${{ needs.job1.outputs.foo }}"
+  job6:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          FOO: ${{ jobs.job1.outputs.foo }}
+        run: sleep 5 && echo "Done $FOO"
